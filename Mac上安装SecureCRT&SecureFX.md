@@ -15,9 +15,9 @@ yuque:  <https://www.yuque.com/bwlab/crack/olftl3>
 #### 第二步：破解
 
 （1） 打开dmg文件，将文件中的两个app移动到应用程序。
-![](image/pic1.png)
-（2）在应用程序里面找到刚才拖动过去的app文件，选中->右键->显示包内容，跟随文件夹到MacOS目录下。
 ![](image/pic2.png)
+（2）在应用程序里面找到刚才拖动过去的app文件，选中->右键->显示包内容，跟随文件夹到MacOS目录下。
+![](image/pic1.png)
 使用option+command+c复制SecureCRT的路径，使用以下路径进入终端。
 ```
 cd /Applications/SecureCRT.app/Contents/MacOS/>
