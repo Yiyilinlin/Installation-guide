@@ -18,8 +18,10 @@ yuque:  <https://www.yuque.com/bwlab/crack/olftl3>
 ![](image/pic1.png)
 （2）在应用程序里面找到刚才拖动过去的app文件，选中->右键->显示包内容，跟随文件夹到MacOS目录下。
 ![](image/pic2.png)
-使用option+command+c复制SecureCRT的路径，使用该路径进入终端。
-路径`cd /Applications/SecureCRT.app/Contents/MacOS/>`
+使用option+command+c复制SecureCRT的路径，使用以下路径进入终端。
+```
+cd /Applications/SecureCRT.app/Contents/MacOS/>
+```
 依次执行下面的语句：
 ```
     	cat SecureCRT  | od -A n -v -t x1 | tr -d ' \n' >SecureCRTHEX.txt
